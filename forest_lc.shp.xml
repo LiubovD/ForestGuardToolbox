@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20250830</CreaDate><CreaTime>13245900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="d:\programs\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\RasterToPolygon" Date="20250830" Time="132459">RasterToPolygon Reclass_Forest_lc D:\Luba\chapter3\project_dead_trees_mapping\dead_trees_mapping\forest_lc.shp SIMPLIFY Value MULTIPLE_OUTER_PART #</Process></lineage></DataProperties></Esri></metadata>
