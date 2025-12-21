@@ -245,6 +245,12 @@ class DetectDeadTrees(object):
         try:
             in_raster = self._normalize_raster(in_raw, temp, messages)
 
+            # ------------------------------------------------------------------
+            # Inherit spatial reference from input raster
+            # ------------------------------------------------------------------
+            desc = arcpy.Describe(in_raster)
+            arcpy.env.outputCoordinateSystem = desc.spatialReference
+
             # Mask
             if mask:
                 aerial = str(temp / "aerial_masked.tif")
